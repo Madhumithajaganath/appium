@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="port" value="4724"/>
+    <parameter name="udid" value="RZ8T31JR73N"/>
+    <parameter name="deviceName" value="Madhumitha jaganath"/>
+    <classes>
+      <class name="com.appium.project.GroceryStore">
+        <methods>
+          <include name="testName"/>
+        </methods>
+      </class> <!-- com.appium.project.GroceryStore -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="R9ZR80GM0RP"/>
+    <parameter name="deviceName" value="Galaxy A22 5G"/>
+    <classes>
+      <class name="com.appium.project.GroceryStore">
+        <methods>
+          <include name="testName"/>
+        </methods>
+      </class> <!-- com.appium.project.GroceryStore -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
