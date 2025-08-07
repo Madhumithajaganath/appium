@@ -36,7 +36,7 @@ public class PinchGestutre {
 		driver.findElement(AppiumBy.id("com.davemorrissey.labs.subscaleview.sample:id/configuration")).click();
 		WebElement element=driver.findElement(AppiumBy.className("android.view.View"));
 		
-		((JavascriptExecutor)driver).executeScript("mobile: pinchOpenGesture", ImmutableMap.of("elementId",((RemoteWebElement)element).getId(),"percent",0.75));//zoom in
+		((JavascriptExecutor)driver).executeScript("mobile: pinchOpenGesture", ImmutableMap.of("elementId",((RemoteWebElement)element).getId(),"percent",1.0));//zoom in
 		
 		Thread.sleep(3000);
 		

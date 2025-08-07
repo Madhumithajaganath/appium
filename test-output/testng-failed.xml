@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.project.sample">
+      <class name="com.appium.project.gallery">
         <methods>
           <include name="testName"/>
         </methods>
-      </class> <!-- com.appium.project.sample -->
+      </class> <!-- com.appium.project.gallery -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
